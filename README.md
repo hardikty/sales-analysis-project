@@ -22,7 +22,7 @@ here you can easily access the infoormation of
 
 
  
-- # TECHNICAL PART :
+- # TECHNICAL WORKING :
 
 1. ## USE OF MYSQL
    --> [DOWNLOAD FROM HERE](https://www.mysql.com/)
