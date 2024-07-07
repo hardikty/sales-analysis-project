@@ -1,35 +1,35 @@
-# functional and technical parts used in report 
+# FUNCTIONAL AND TECHNICAL WORKING OF REPORT  
 
-- # functional part of report  :
-the given dashboard tells you about sales analysis of awesome chocolate factory 
+- # FUNCTIONAL WORKING :
+The given dashboard tells you about sales analysis of awesome chocolate factory 
 here you can easily access the infoormation of 
 
-1. total sales made by the company or the the total sales made according to specific product
-2. how much boxes been sold of different products
-3. here we can easily get to know about the shipment count
-4. there is also calculation of LBS(LOW BOX SHIPMENT) and LBS%
+1. Total sales made by the company or the the total sales made according to specific product
+2. How much boxes been sold of different products
+3. Here we can easily get to know about the shipment count
+4. There is also calculation of LBS(LOW BOX SHIPMENT) and LBS%
 
-### graphs used for :
-1. to get to know about the sales trend of different months
-2. to get to know about sales of produts according to geographical location 
+### GRAPHS USED FOR :
+1. To get to know about the sales trend of different months
+2. To get to know about sales of produts according to geographical location 
 
-### tables used for :
---> displaying the top 10 salesman of oour company according to total boxes of products sold by them , total sales they made and what is status of lbs%
+### TABLE USED FOR :
+--> Displaying the top 10 salesman of oour company according to total boxes of products sold by them , total sales they made and what is status of lbs%
 
-##   important dashboard feature :
-1. the given dashboard is flexible as it can show sales analysis of different products used in company.
-2. the queries are parameterized and show the parameter values on the Power BI report
+##   IMPORTANT DASHBOARD FEATURE :
+1. The given dashboard is flexible as it can show sales analysis of different products used in company.
+2. The queries are parameterized and show the parameter values on the Power BI report
 
 
  
-- # technical part :
+- # TECHNICAL PART :
 
-1. ## use of mysql
-   --> [download from here](https://www.mysql.com/)
+1. ## USE OF MYSQL
+   --> [DOWNLOAD FROM HERE](https://www.mysql.com/)
 
-   - after complating the download stage u need some data to be used in mysql, so i have uploaded database dump on this repository.
+   - After complating the download stage u need some data to be used in mysql, so i have uploaded database dump on this repository.
   
-   - import the given data in mysql workbench by following the steps in  image below:
+   - Import the given data in mysql workbench by following the steps in  image below:
   
 
   (![SNAG-2243](https://github.com/hardikty/sales-analysis-pt2/assets/174869730/4ca0a52a-30a0-47dd-83e0-215ede45e8ea)
@@ -37,12 +37,12 @@ here you can easily access the infoormation of
   - At the end of these steps, your MySQL should have the awesome chocolates database. Congratulations
     You can see this from “Schemas” tab on the workbench
 
-  - so the given data is been succesfully imported on your local host now its time to visualize the data in power bi and do some analysis by executing queries
+  - So the given data is been succesfully imported on your local host now its time to visualize the data in power bi and do some analysis by executing queries
 
 
-2. ## use of microsoft power bi
-   --> [download from here](https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads)
-   - after succesfully downloading power bi go to GET DATA to import the dataset ur mysql database contains , follow the images given below :
+2. ## USE OF MICROSOFT POWER BI
+   --> [DOWNLOAD FROM HERE](https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads)
+   - After succesfully downloading power bi go to GET DATA to import the dataset ur mysql database contains , follow the images given below :
   
       (![getdata](https://github.com/hardikty/sales-analysis-pt2/assets/174869730/b2f6cfaa-7b91-4b3a-a438-3ceecd523732)
 
@@ -52,17 +52,17 @@ here you can easily access the infoormation of
      (![last](https://github.com/hardikty/sales-analysis-pt2/assets/174869730/7538670e-df93-40da-a2fd-df2c2a9c8bd2)
      click on connect
 
-   - finally the schemas in your mysql will be fetched in power bi app and will be shown lke this
+   - Finally the schemas in your mysql will be fetched in power bi app and will be shown lke this
 
       (![queries](https://github.com/hardikty/sales-analysis-pt2/assets/174869730/de8f5cf1-7011-43c6-ac5f-c61393b208b2)
 
-   - now its time to excute queries in order to get
-     1. total sales
-     2. total boxes
-     3. low box shipment
-     4. lbs%
+   - Now its time to excute queries in order to get
+     1. Total sales
+     2. Total boxes
+     3. Low box shipment
+     4. LBS%
 
-### data analysis 
+### DATA ANALYSIS
 
 include some codes worked with :
 
@@ -90,7 +90,7 @@ LBS% = DIVIDE([low box shipments],[Shipment Count]);
 
 - after executing the above queries we can easily design a dashboard and work with schemas using  data , buid and format provided by the power bi .
 
-## in  given dashboard the sales analysis of different products are carried out by the steps shown in images :
+## In  given dashboard the sales analysis of different products are carried out by the steps shown in images :
 
    (![Screenshot (60)](https://github.com/hardikty/sales-analysis-pt2/assets/174869730/542ecd0e-e3ff-4182-a150-0750ee1e673a)
 
